@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 10</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Importante Plan</h1>
+    </div>
+    <div class="contenedor">
+      <h3>Seleccione el vehiculo de su gusto</h3>
+      <select id="idSelectorVehiculo">
+        <option value="1">vehiculo 1 - 25.000.000</option>
+        <option value="2">vehiculo 2 - 29.000.000</option>
+        <option value="3">vehiculo 3 - 35.000.000</option>
+      </select>
+    </div>
+    <div class="contenedor">
+      <h3>Ingrese dinero a Entregar</h3>
+      <input type="number" id="idDineroAEntregar" />
+    </div>
+    <div class="contenedor">
+      <h3>Seleccione su plan de Financiacion</h3>
+      <select id="idSelectorFinanciacion">
+        <option value="1">24 cuotas</option>
+        <option value="2">48 cuotas</option>
+        <option value="3">60 cuotas</option>
+      </select>
+    </div>
+    <div class="contenedor">
+      <h3>Aqui vamos a calcular la Financiacion</h3>
+      <input type="button" value="Calcular Financiacion" id="idBtnCalcular" />
+    </div>
+    <div class="contenedor">
+      <h3>Desea que un representante se cominique con Ud.?</h3>
+      <input type="checkbox" name="" id="idAceptaLlamada" />
+    </div>
+    <div class="contenedor" id="datosPersonales">
+      <label for="idApellido">Ingrese Apellido</label>
+      <input type="text" placeholder="Ingrese su apellido" id="idApellido" />
+      <br />
+      <label for="idNombre">Ingrese Nombre</label>
+      <input type="text" placeholder="Ingrese su nombre" id="idNombre" />
+      <br />
+      <label for="idTelefono">Ingrese Telefono</label>
+      <input type="text" placeholder="Ingrese su Telefono" id="idTelefono" />
+      <br />
+      <label for="idCorreo">Ingrese su correo electronico</label>
+      <input
+        type="email"
+        placeholder="Ingrese su correo electronico"
+        id="idCorreo"
+      />
+      <input type="button" value="Aceptar llamada" id="idBtnAceptar" />
+    </div>
+    <script src="controlador.js"></script>
+  </body>
+</html>
