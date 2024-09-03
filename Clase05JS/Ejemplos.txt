@@ -1,0 +1,18 @@
+
+-una caja de un supermercado
+cuando pasa los productos por
+la caja. leyendo precio por precio
+y totalizando al final.
+
+-una cajera de un peaje, que recibe
+vehículo tras vehículo y cobra el peaje
+dependiendo del vehículo.
+
+-un profesor cuando toma exámen a sus 
+alumnos. uno x uno hasta llegar al final
+otorgando notas.
+
+-una persona de atención al público que 
+atiende los pedidos/reclamos de los clientes
+
+

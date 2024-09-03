@@ -1,0 +1,115 @@
+/* index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Aplicar la fuente a todos los elementos */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Reset básico */
+body, h1, h3, select, input, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+    overflow-y: scroll; /* Asegura que la barra de desplazamiento siempre esté visible */
+}
+
+/* Estilo de la barra de desplazamiento personalizada */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo de la pista */
+    border-radius: 10px; /* Bordes redondeados de la pista */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color del pulgar (parte que se mueve) */
+    border-radius: 10px; /* Bordes redondeados del pulgar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar cuando se pasa el cursor sobre él */
+}
+
+/* Estilos específicos de los elementos */
+h1, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+/* Estilo del contenedor */
+.contenedor {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Estilo de inputs y selects */
+input[type="number"], input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transición suave */
+}
+
+/* Efecto hover para inputs y selects */
+input[type="number"]:hover, input[type="text"]:hover, input[type="email"]:hover, select:hover {
+    border-color: #007BFF; /* Cambia el color del borde cuando se pasa el cursor */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Añade una sombra al pasar el cursor */
+}
+
+/* Estilo de botones */
+input[type="button"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo de checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}

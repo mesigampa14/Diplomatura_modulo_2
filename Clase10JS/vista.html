@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> <!-- Enlaza el archivo CSS -->
+    <title>Clase 10</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>IMPORTANTE PLAN FINANCIACION DE TU OK. CONCESIONARIA XXYYZZ</h1>
+    </div>
+    <div class="contenedor">
+        <h3>SELECCIONE EL VEHICULO DE SU GUSTO</h3>
+        <select id="idSelectorVehiculo">
+            <option value="1">VEHICULO 1 - 25.000.000,00</option>
+            <option value="2">VEHICULO 2 - 29.000.000,00</option>
+            <option value="3">VEHICULO 3 - 35.000.000,00</option>
+        </select>
+    </div>
+    <div class="contenedor">
+        <h3>Ingrese el Dinero a Entregar</h3>
+        <input type="number" id="idDineroAEntregar">
+    </div>
+    <div class="contenedor">
+        <h3>Seleccione su Plan de Financiación</h3>
+        <select id="idSelectorDePlanFinanciacion">
+            <option value="1">24 CUOTAS</option>
+            <option value="2">48 CUOTAS</option>
+            <option value="3">60 CUOTAS</option>
+        </select>
+    </div>
+    <div class="contenedor">
+        <h3>Aqui Vamos a Calcular la Financiacion</h3>
+        <input type="button" value="Calcular Financiación" id="idBtnCalcular">
+    </div>
+   
+    <div class="contenedor">
+        <h3>Desea que un representante se comunique con Ud. ?</h3>
+        <input type="checkbox" id="idAceptaLlamada">
+    </div>
+    <div class="contenedor" id="idDatosPersonales">
+        <label for="idApellido">Ingrese Apellido</label>
+        <br>
+        <input type="text" placeholder="Ingrese su Apellido" id="idApellido">
+        <br>
+        <label for="idNombre">Ingrese Nombre</label>
+        <br>
+        <input type="text" placeholder="Ingrese Nombre" id="idNombre">
+        <br>
+        <label for="idTelefono">Ingrese su Telefono</label>
+        <br>
+        <input type="text" placeholder="Ingrese su Telefono" id="idTelefono">
+        <br>
+        <label>Ingrese su correo electronico</label>
+        <br>
+        <input type="email" placeholder="Ingrese su correo electronico" id="idCorreo">
+        <br>
+        <input type="button" value="Aceptar llamada" id="idBtnAceptar">
+    </div>
+    
+    <script src="controlador.js"></script>
+</body>
+</html>
