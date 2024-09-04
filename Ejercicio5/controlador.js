@@ -1,44 +1,44 @@
 const fnValidaMes = (mes) => {
-  let valida = false;
+  let valido = false;
   switch (mes) {
     case "ENERO":
-      valida = true;
+      valido = true;
       break;
     case "FEBRERO":
-      valida = true;
+      valido = true;
       break;
     case "MARZO":
-      valida = true;
+      valido = true;
       break;
     case "ABRIL":
-      valida = true;
+      valido = true;
       break;
     case "MAYO":
-      valida = true;
+      valido = true;
       break;
     case "JUNIO":
-      valida = true;
+      valido = true;
       break;
     case "JULIO":
-      valida = true;
+      valido = true;
       break;
     case "AGOSTO":
-      valida = true;
+      valido = true;
       break;
     case "SEPTIEMBRE":
-      valida = true;
+      valido = true;
       break;
     case "OCTUBRE":
-      valida = true;
+      valido = true;
       break;
     case "NOVIEMBRE":
-      valida = true;
+      valido = true;
       break;
     case "DICIEMBRE":
-      valida = true;
+      valido = true;
       break;
   }
-  return valida;
+  return valido;
 };
 
 window.addEventListener("load", () => {
