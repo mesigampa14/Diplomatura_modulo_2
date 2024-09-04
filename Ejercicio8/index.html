@@ -3,30 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ejercicio Nº 6</title>
+    <title>Ejercicio Nº 7</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Ejercicio Nro. 06: Aplicación de Facturación - Argentina</h1>
+    <h1>Ejercicio Nro. 07: Simulador de Plazos Fijos</h1>
     <div>
       <h3>Ingrese importe base</h3>
       <input
         min="0"
         type="number"
-        id="importeBase"
+        id="capital"
         class="form-item"
         placeholder="Ingrese el importe base"
       />
     </div>
+    <hr />
+    <h1>Tasa preferencial</h1>
     <div>
-      <h3>Seleccione tipo de artículo</h3>
-      <select id="tipoArticulo" class="form-item">
-        <option value="1">Tipo 1 - 21%</option>
-        <option value="2">Tipo 2 - 27%</option>
-        <option value="3">Tipo 3 - 10.5%</option>
-        <option value="4">Tipo 4 - 5%</option>
-        <option value="5">Tipo 5 - 0%</option>
-      </select>
+      <h3>
+        Para cliente del Banco (0.7%) más de rentabilidad
+        <input type="checkbox" id="esCliente" />
+      </h3>
+    </div>
+    <div>
+      <h3>
+        Plazo fijo autorenovable cada 3 meses (0.9%) más de rentabilidad
+        <input type="checkbox" id="autorenovable" />
+      </h3>
     </div>
     <div>
       <button type="button" id="calcular">Calcular Totales</button>
